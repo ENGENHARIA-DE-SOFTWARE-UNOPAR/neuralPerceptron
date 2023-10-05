@@ -18,7 +18,7 @@
 [![Atom] (/figure/logo_atom.png)](https://atom.io/)
 
 
-![Atom]("figure/logo_atom.png")
+![Atom]("figure/logo_atom")
 
 
 </p>
