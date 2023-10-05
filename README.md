@@ -24,6 +24,6 @@ o codigo usado é `main`
 
 </p>
 
-~~~javascript
-Esta é uma linha de código em Javascript.
+~~~java
+Esta é uma linha de código em Java.
 ~~~
