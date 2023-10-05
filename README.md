@@ -15,6 +15,6 @@
 
 <a href="https://www.cs.waikato.ac.nz/ml/index.html">Weka</a> <br/>
 
-[![Atom] (figure/logo_atom.png)](https://atom.io/)
+[![Atom] (/figure/logo_atom.png)](https://atom.io/)
 
 </p>
