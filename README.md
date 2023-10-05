@@ -15,11 +15,11 @@
 
 <a href="https://www.cs.waikato.ac.nz/ml/index.html">Weka</a> <br/>
 
-[![Atom] (/figure/logo_atom.png)](https://atom.io/)
+
 
 o codigo usado é `main`
 
-![Atom]("figure/logo_atom")
+![Atom](https://seeklogo.com/images/A/atom-logo-19BD90FF87-seeklogo.com.png)
 
 
 </p>
