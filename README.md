@@ -17,6 +17,7 @@
 
 [![Atom] (/figure/logo_atom.png)](https://atom.io/)
 
+o codigo usado é `main`
 
 ![Atom]("figure/logo_atom")
 
