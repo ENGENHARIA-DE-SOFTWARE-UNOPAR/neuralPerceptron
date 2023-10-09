@@ -9,7 +9,7 @@
     \item tornar as técnicas de ML geralmente disponíveis;
     \item aplicá-los a problemas práticos importantes para a indústria da Nova Zelândia;
     \item desenvolver novos algoritmos de aprendizado de máquina e distribuí-los ao mundo;
-    \item contribuir para um arcabouço teórico para a área.
+    \item contribuir para um alicerce teórico para a área.
   \end{asparaenum}
 
 \end{minipage}
@@ -32,7 +32,7 @@
 \end{figure}
 \par De acordo com o software, a versão instalada foi a \textbf{3.8.6}
 
-\par Após a instalação do software e configurações adicionais, foi seguido as instruções do roteiro, ao qual solicitou que abrisse um arquivo chamado \textbf{"diabetes.arff"}, ao abrir o arquivo a software expressou as seguintes figuras \ref{fig:dados}
+\par Após a instalação do software e configurações adicionais, foi seguido as instruções do roteiro, ao qual solicitou que abrisse um arquivo chamado \textbf{"diabetes.arff"}, ao abrir o arquivo a software expressou as seguintes figuras \ref{fig:dados}.
 
 \begin{figure}[H] %Figuras da aula pratica 1.1
   \center
@@ -40,7 +40,7 @@
   \subfigure[Dados totais.\label{fig:75}]{\includegraphics[scale=0.6]{figure/visualizeAll.png}}
   \caption{Dados Diabetes.arff, O autor}\label{fig:dados}
 \end{figure}
-\par Na sequência foi estabelecido a rede neural \textbf{perceptron} conforme figura\ref{fig:escolha}
+\par Na sequência foi estabelecido a rede neural \textbf{perceptron} conforme figura \ref{fig:escolha}.
 
 \begin{figure}[h]
   \center
@@ -61,7 +61,7 @@
   \caption{Rede neural Perceptron, O autor}\label{fig:redeNeural}
 \end{figure}
 
-\par No relatório da aula prática foi solicitado que comparasse duas variavéis, sendo elas: \textit{Root mean squared error} "Raiz quadrada do erro médio" e \textit{Confusion Matrix} "Matriz de confusão" classificando em verdadeiro positivo, falso positivo, falso negativo e verdadeiro negativo. Para as duas análises com odemonstra a fiigura \ref{fig:normal} e a figura \ref{fig:75erro}.
+\par No roteiro da aula prática foi solicitado que comparasse duas variavéis, sendo elas: \textit{Root mean squared error} "Raiz quadrada do erro médio" e \textit{Confusion Matrix} "Matriz de confusão" classificando em verdadeiro positivo, falso positivo, falso negativo e verdadeiro negativo. Para as duas análises como demonstra a figura \ref{fig:normal} e \ref{fig:75erro}.
 \begin{figure}[H]
   \center
   \includegraphics[scale=0.6]{figure/result_true3.png}
@@ -75,7 +75,7 @@
 \end{figure}
 
 \par A raiz quadrada do erro do primeiro teste foi de: 0.3815, e a matrix confusão é:
-\begin{table}
+\begin{table}[h!]
 \center
   \begin{tabular}{| c | c | c |}
   \hline
@@ -90,7 +90,7 @@
   \label{tab:normal}
 \end{table}
 \par A raiz quadrada do erro do segundo teste foi de: 0.4146
-\begin{table}
+\begin{table}[h!]
 \center
   \begin{tabular}{| c | c | c |}
   \hline
@@ -106,7 +106,8 @@
 \end{table}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusões}
-\par Observa-se que os dois teste com o treinamento da rede da figura \ref{fig:normal} e figura \ref{fig:75erro}, apresentam resultados levemente distintos, devido as quantidades de dados, sendo que a da figura \ref{fig:75erro} foi ordenado ao software weka que apenas 75\% dos dados para análise e 25\% pa0ra testes. Deta forma evedência a importancia do entendimento das redes neurais.
+\par Observa-se que os dois teste com o treinamento da rede da figura \ref{fig:normal} e figura \ref{fig:75erro}, apresentam resultados levemente distintos, devido as quantidades de dados, sendo que a da figura \ref{fig:75erro} foi ordenado ao software weka que apenas 75\% dos dados para análise e 25\% para testes. Deta forma evedência a importancia do entendimento das redes neurais.
+\par Da mesma forma as tabelas \ref{tab:normal} e \ref{tab:75}, demonstra a classificação da matriz confusão em testes positivos e teste negativos.
 
 
 
