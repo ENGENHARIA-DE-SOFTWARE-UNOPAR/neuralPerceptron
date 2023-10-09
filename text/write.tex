@@ -62,20 +62,51 @@
 \end{figure}
 
 \par No relatório da aula prática foi solicitado que comparasse duas variavéis, sendo elas: \textit{Root mean squared error} "Raiz quadrada do erro médio" e \textit{Confusion Matrix} "Matriz de confusão" classificando em verdadeiro positivo, falso positivo, falso negativo e verdadeiro negativo. Para as duas análises com odemonstra a fiigura \ref{fig:normal} e a figura \ref{fig:75erro}.
-\begin{figure}[h!]
+\begin{figure}[H]
   \center
   \includegraphics[scale=0.6]{figure/result_true3.png}
   \caption{log}\label{fig:normal}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[H]
   \center
   \includegraphics[scale=0.6]{figure/result_true_75p.png}
   \caption{log 75\%}\label{fig:75erro}
 \end{figure}
+
+\par A raiz quadrada do erro do primeiro teste foi de: 0.3815, e a matrix confusão é:
+\begin{table}
+\center
+  \begin{tabular}{| c | c | c |}
+  \hline
+    a & b & Classificação\\
+    \hline
+    401 & 99 &  a = tested\_negative\\
+    50 & 218 &  b = tested\_positive\\
+    \hline
+  %\caption{title}
+  \end{tabular}
+  \caption{Matrix confusão, O autor}
+  \label{tab:normal}
+\end{table}
+\par A raiz quadrada do erro do segundo teste foi de: 0.4146
+\begin{table}
+\center
+  \begin{tabular}{| c | c | c |}
+  \hline
+    a & b & Classificação\\
+    \hline
+    114 & 16 &  a = tested\_negative\\
+    28 & 34 &  b = tested\_positive\\
+    \hline
+  %\caption{title}
+  \end{tabular}
+\caption{Matrix confusão 75\%, O autor}
+\label{tab:75}
+\end{table}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusões}
-
+\par Observa-se que os dois teste com o treinamento da rede da figura \ref{fig:normal} e figura \ref{fig:75erro}, apresentam resultados levemente distintos, devido as quantidades de dados, sendo que a da figura \ref{fig:75erro} foi ordenado ao software weka que apenas 75\% dos dados para análise e 25\% pa0ra testes. Deta forma evedência a importancia do entendimento das redes neurais.
 
 
 
