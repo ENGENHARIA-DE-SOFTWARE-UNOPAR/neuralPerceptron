@@ -22,8 +22,9 @@
 \end{minipage}
 
 
+
 \section{Métodos}
-\par Os métodos aplicados nesta aula prática foi seguido o roteiro da \href{https://github.com/OgliariNatan/neuralPerceptron/blob/main/Aula%20pr%C3%A1tica.pdf}{aula prática}, no roteiro da presente aula, foi deixado em aberto os passos para a instalação do software Weka. Em consulta rápida na internet encontrei um documento publico denominado de \href{https://github.com/OgliariNatan/neuralPerceptron/blob/main/ML-09weka.pdf}{"Introdução ao Weka"}, da universidade federal do Paraná. do autor David Menotti. Segui as orientação e conclui a instalação do software como demonstra a figura \ref{fig:home_weka}.
+\par Os métodos aplicados nesta aula prática foi seguido o roteiro da \href{https://github.com/OgliariNatan/neuralPerceptron/blob/main/Aula%20pr%C3%A1tica.pdf}{aula prática}, no roteiro da presente aula, foi deixado em aberto os passos para a instalação do software Weka. Em consulta rápida na internet encontrei um documento público denominado de \href{https://github.com/OgliariNatan/neuralPerceptron/blob/main/ML-09weka.pdf}{"Introdução ao Weka"}, da universidade federal do Paraná. do autor David Menotti. Segui as orientação e conclui a instalação do software como demonstra a figura \ref{fig:home_weka}.
 \begin{figure}[h]
   \center
   \includegraphics[scale=0.5]{figure/home_weka.png}
@@ -31,7 +32,21 @@
 \end{figure}
 \par De acordo com o software, a versão instalada foi a \textbf{3.8.6}
 
+\par Após a instalação do software e configurações adicionais, foi seguido as instruções do roteiro, ao qual solicitou que abrisse um arquivo chamado \textbf{"diabetes.arff"}, ao abrir o arquivo a software expressou as seguintes figuras \ref{fig:dados}
 
+\begin{figure}[H] %Figuras da aula pratica 1.1
+  \center
+  \subfigure[Dados simplificados.\label{fig:frist}]{\includegraphics[scale=0.6]{figure/open_project.png}}
+  \subfigure[Dados totais.\label{fig:75}]{\includegraphics[scale=0.6]{figure/visualizeAll.png}}
+  \caption{Dados Diabetes.arff, O autor}\label{fig:dados}
+\end{figure}
+\par Na sequência foi estabelecido a rede neural \textbf{perceptron} conforme figura\ref{fig:escolha}
+
+\begin{figure}[h]
+  \center
+  \includegraphics[scale=0.6]{figure/escolha_oerceptron.png}
+  \caption{Escolha metodo Perceptron}\label{fig:escolha}
+\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Resultados}
@@ -47,13 +62,13 @@
 \end{figure}
 
 \par No relatório da aula prática foi solicitado que comparasse duas variavéis, sendo elas: \textit{Root mean squared error} "Raiz quadrada do erro médio" e \textit{Confusion Matrix} "Matriz de confusão" classificando em verdadeiro positivo, falso positivo, falso negativo e verdadeiro negativo. Para as duas análises com odemonstra a fiigura \ref{fig:normal} e a figura \ref{fig:75erro}.
-\begin{figure}[h]
+\begin{figure}[h!]
   \center
   \includegraphics[scale=0.6]{figure/result_true3.png}
   \caption{log}\label{fig:normal}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[h!]
   \center
   \includegraphics[scale=0.6]{figure/result_true_75p.png}
   \caption{log 75\%}\label{fig:75erro}
