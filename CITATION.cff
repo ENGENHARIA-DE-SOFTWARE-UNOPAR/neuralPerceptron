@@ -1,17 +1,14 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-#type: article
+
 authors:
 - family-names: "Natan"
   given-names: "Ogliari"
   orcid: "https://orcid.org/0000-0000-0000-0000"
 
- 
 title: "neuralPerceptron"
 version: 1.0.0
 doi: 10.5281/zenodo.1234
 date-released: 2023-10-18
 url: "https://github.com/OgliariNatan/neuralPerceptron"
 
-preferred-citation:
-  type: article
