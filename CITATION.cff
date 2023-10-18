@@ -1,7 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
+type: article
 authors:
-- family-names: "YOUR_NAME_HERE"
+- family-names: "Natan"
   given-names: "YOUR_NAME_HERE"
   orcid: "https://orcid.org/0000-0000-0000-0000"
 - family-names: "Lisa"
